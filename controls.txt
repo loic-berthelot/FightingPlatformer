@@ -1,0 +1,14 @@
+move left:q
+move right:d
+jump:z
+crouch:s
+run:mouse3
+collect/interact:space
+item1:e
+item2:r
+item3:f
+item4:g
+hit:mouse1
+ultimate:left ctrl
+shield:mouse4
+toggle scoreboard:tab

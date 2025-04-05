@@ -1,0 +1,93 @@
+TEXT
+controls Use wasd keys to move. You can change these default keys in menu-controls.
+go_right Continue to go on the right.
+goal You can know your goals (default key tab).
+jump Use w and s (default) to keep moving.
+hit Use the left click (default) to hit with your weapon.
+tree_wood Hit this tree 3 times with your axe.
+collect_wood Collect the wood using space key (default).
+climb Climb this scale using w (default).
+jump_wall Close your eyes and jump.
+repair_bridge Throw wood (default keys : e, r, f, g) on this bridge.
+run To run, press right click when you are moving.
+stamina Be careful, the run uses much stamina ! But dash (double hit a or d) doesn't use.
+hammer Take this hammer and equip it.
+stone You can mine this rock with hammer hit or with mines to get stones.
+ult You can use your ultimate (default key is ctrl). 
+ult_info The ultimate has a long cooldown. Each weapon has a its own ult.
+shield You can use your shield (mouse roll down) to block some attacks.
+gate You can break the gate with your hammer or with mines.
+enemy Only warriors with a cape of the same color are allies.
+kill Kill this enemy !
+campfire You can recover health throwing wood in this campfire and staying near to it.
+fruit_tree This tree gives fruits. Eat them to recover health.
+victory Victory is near...
+
+DESCRIPTION
+This is a small tutorial to learn the basics of the game.
+DESCRIPTION
+
+VICTORY
+my_escape true
+
+MAP
+background_color 150 250 20
+light_intensity 0
+border_size 5000 600
+respawn_time 120
+respawn_time wolf none
+items_lifetime -1
+ai_delay 10
+
+CHARACTERS
+human 50 50 player bear axe
+human 4000 50 ai wolf
+
+BACKGROUND
+LOOP 5 100 0 wall1 0 400
+LOOP 6 100 0 wall1 800 400
+LOOP 50 100 0 wall1 0 500
+stairs1 700 400
+ramp1 500 400 0 1
+LOOP 2 100 0 ceiling2 800 300
+ramp1 1400 400 0 1
+bridge_destroyed1 1600 150
+LOOP 3 0 100 scale1 1300 100
+LOOP 2 100 0 wall1 1400 150
+LOOP 2 100 0 wall1 1900 150
+LOOP 3 0 100 wall1 2100 200
+gate_solid1 3450 300
+gate_solid1 4050 300 0 0 1
+escape_door1 4900 350
+
+signpost1 40 350 0 0 controls 
+signpost1 150 350 0 0 go_right
+signpost1 250 350 0 0 goal
+signpost1 650 450 0 0 jump
+signpost1 1050 350 0 0 hit
+signpost1 1150 350 0 0 tree_wood
+signpost1 1200 350 0 0 collect_wood
+signpost1 1500 100 0 0 repair_bridge
+signpost1 1350 350 0 0 climb
+signpost1 2150 150 0 0 jump_wall
+signpost1 2300 450 0 0 run
+signpost1 2550 450 0 0 stamina
+signpost1 2850 450 0 0 hammer
+signpost1 3000 450 0 0 stone
+signpost1 3250 450 0 0 enemy
+signpost1 3400 450 0 0 gate
+signpost1 3550 450 0 0 kill
+signpost1 4370 450 0 0 campfire
+signpost1 4550 450 0 0 fruit_tree
+signpost1 4750 450 0 0 victory
+
+EFFECTS
+rock3 3050 420
+campfire0 4280 475
+fruit_tree1 4550 295
+tree1 1100 250
+tree2 4150 300
+
+ITEMS
+weapon_hammer 2900 400
+mine 2950 400

@@ -1,0 +1,70 @@
+DESCRIPTION
+There are 6 flags and 4 people of different tribes in 
+this map. The first tribe that owns 3 flags wins.
+DESCRIPTION
+
+MAP
+border_size 1700 1400
+respawn_time 300
+adapt_background keep_proportions
+background_color sky1.jpg
+death_vision death
+items_lifetime 600
+
+CHARACTERS
+human 100 300 ai bear
+human 1600 300 ai wolf
+human 100 1250 player raven
+human 1600 1250 ai snake
+
+VICTORY
+flags_raised 3
+
+DEFEAT
+flags_raised 3
+
+BACKGROUND
+LOOP 17 100 0 wall1 0 1300
+LOOP 3 100 0 wall1 0 400
+LOOP 3 100 0 wall1 1400 400
+LOOP 3 100 0 wall1 700 550
+stairs1 600 550
+stairs1 1000 550 0 1
+wall4_3 700 250
+wall4_3 900 250 0 1
+guillotine 700 1150
+guillotine 973 1150
+LOOP 7 0 100 scale1 500 600 
+LOOP 7 0 100 scale1 1100 600 
+LOOP 3 100 0 wall4_2 700 1050
+wall4_4 600 1050
+wall4_4 1000 1050 0 1
+flag_pole 70 200 0 0 400 bear 200
+flag_pole 1600 200 0 0 400 wolf 200
+flag_pole 70 1100 0 0 400 raven 200
+flag_pole 1600 1100 0 0 400 snake 200
+flag_pole 835 350 0 0 400 
+flag_pole 835 850 0 0 400 
+
+EFFECTS
+platform1 300 400 0 0 0.08 550 550
+platform1 1300 400 0 0 0.08 1050 550
+platform1 800 250 0 0 0.08 800 550
+campfire0 810 1275
+tree1 700 105
+tree1 900 105 0 1
+spikes0 800 1048
+fruit_tree1 650 850
+fruit_tree1 950 850 0 1
+pedestal 750 540
+pedestal 950 540
+pedestal 350 1290
+pedestal 1350 1290
+
+ai_beacon 850 450 0 0 4
+ai_beacon 850 950 0 0 4
+
+ai_beacon 650 450 0 0 3
+ai_beacon 1050 450 0 0 3
+ai_beacon 650 950 0 0 3
+ai_beacon 1050 950 0 0 3

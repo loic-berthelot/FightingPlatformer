@@ -1,0 +1,51 @@
+DESCRIPTION
+This is a medium arena map in 2vs2.
+First team that kills the other team 3 times wins.
+DESCRIPTION
+
+VICTORY
+ace 3
+
+DEFEAT
+ace 3
+
+ROUND
+ace bear
+ace wolf
+
+MAP
+background_color 100 200 100
+light_color 0 0 0
+light_intensity 0
+border_size 1100 600
+respawn_time waiting
+round_end 60
+death_vision death
+
+CHARACTERS
+human 100 200 player bear random
+human 150 200 ai bear random
+human 1000 200 ai wolf random
+human 950 200 ai wolf random
+
+BACKGROUND
+LOOP 12 100 0 wall1 0 500
+LOOP 3 100 0 wall1 -50 400
+LOOP 3 100 0 wall1 850 400
+LOOP 7 100 0 wall1 200 200
+ramp1 250 400 0 1
+ramp1 750 400
+LOOP 2 0 100 scale1 100 150
+LOOP 2 0 100 scale1 900 150
+
+EFFECTS
+pedestal 84 390
+pedestal 1016 390
+crate2 500 180
+crate1 550 160
+crate3 600 175
+
+ai_beacon 100 300 0 0 1
+ai_beacon 1000 300 0 0 1
+ai_beacon 550 100 0 0 1
+ai_beacon 550 400 0 0 1

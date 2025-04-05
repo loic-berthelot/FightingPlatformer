@@ -1,0 +1,17 @@
+Version 0.0 : This is the first version
+- characters with health (80 points) and 4 slots for items
+- team system + cape color that depends on the character's team
+- one weapon : The axe, that inflicts 20 dmg to characters (and push them back) 
+and 1 dmg to trees. The ultimate is a shockwave that puts on the ground and 
+inflicts 10 dmg.
+- items : health potion, stone, knife, wood
+- character movements : simple hit, ultimate, block
+- scales on wich the characters can climb
+- 2 types of trees with 3 hp that give 3 pieces of wood
+- firecamps that use wood to make fire and heal nearly characters
+- 1 gate and 1 bridge that can be repaired with wood
+- platforms that give items
+- very simple ai with random moves
+- menu with credits, possibility to change controls (they are saved), 
+credits and patch notes
+- 3 maps for the moment

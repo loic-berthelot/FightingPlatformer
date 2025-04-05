@@ -1,0 +1,35 @@
+DESCRIPTION
+You can train yourself and try the different weapons and items in this map.
+DESCRIPTION
+
+MAP
+background_color 100 100 200
+light_color 0 0 0
+light_intensity 0
+border_size 1000 1000
+respawn_time 60
+items_lifetime -1
+
+CHARACTERS
+human 250 800 player bear bow weapon_axe weapon_hammer weapon_sword
+human 950 800 none wolf axe
+
+BACKGROUND
+LOOP 10 100 0 wall1 0 900
+LOOP 4 100 0 wall1 0 600
+LOOP 2 0 100 wall1 500 700
+wall1 100 250
+wall1 800 300
+wall1 150 370
+guillotine 100 750
+training_dummy1 150 150 0 1
+training_dummy2 850 200
+training_dummy2 200 270 0 1
+
+EFFECTS
+platform1 400 950 0 0 0.07 400 10
+platform1 900 950 0 0 0.04 600 500
+LOOP 6 50 0 pedestal 50 590
+spikes0 10 898
+crate2 200 880
+crate3 240 875

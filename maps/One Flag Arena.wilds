@@ -1,0 +1,47 @@
+DESCRIPTION
+    After the death of Ragnar, King of the Mountain, the Wildlands were 
+claimed by Lagertha, of the Wolf clan, and Geralt, of the Bear tribe. 
+    To avoid a war, the two leaders fought alone in the arena and the 
+winner was to ascend the throne. Lagherta defeated her opponent, 
+and as he lay on the ground, she raised the flag of her clan to the 
+top of the pole in the center of the arena, declaring herself victorious. 
+    But Geralt, though wounded, got up and hit Lagherta in the back, then 
+threw her into the spikes at the edge of the battle area. The Bear's 
+flag had flown first, but Lagherta lay on the ground. With the winner of 
+the fight unclear, supporters of both sides entered the arena, and in the 
+ensuing fight, Geralt died from an axe blow to the head. 
+    Lagherta died of his wounds two days later. No agreement could be 
+reached, and war broke out between the two tribes.
+DESCRIPTION 
+
+VICTORY
+flags_raised 1
+
+DEFEAT
+flags_raised 1
+
+MAP
+border_size 1000 500
+respawn_time 240
+adapt_background keep_proportions
+background_color sky1.jpg
+items_lifetime 600
+flag_teams bear wolf
+
+CHARACTERS
+human 300 300 player bear random
+human 700 300 ai wolf random
+
+BACKGROUND
+LOOP 10 100 0 wall1 0 400
+LOOP 4 0 100 wall1 0 0
+LOOP 4 0 100 wall1 900 0
+flag_pole 490 200 0 0 1000
+
+EFFECTS
+spikes0 100 399
+spikes0 800 399
+LOOP 4 0 100 spikes0 99 0 90 2
+LOOP 4 0 100 spikes0 898 0 90
+pedestal 125 390
+pedestal 845 390

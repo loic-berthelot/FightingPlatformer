@@ -1,0 +1,29 @@
+Version 0.1 :
+- The RAM use problem is fixed.
+- The gates and bridges have now health and need 2 pieces of wood to be repaired.
+- There is a new weapon, the hammer. It can break gates and bridges.
+- I fixed some bugs with weapon hitboxes.
+- The duration of a hit is reduced.
+- When you press the settings button in game, it pauses the game.
+- The problem of "shaking" near to the edge of blocks is fixed.
+- When a character takes damages, it produces a blood effect (Thanks to Bifur the Dwarf).
+- The walking speed is a bit reduced.
+- The axe ultimate can't be blocked with shield now.
+- The axe ultimate is blocked by walls. It can change in next versions, say me what you think about it.
+- You can give items faster holding an item key.
+- Display performances improved. I placed the transparent and non transparent background pictures in 2 
+different folders.
+- I added dash. Stunned characters can't use the dash.
+- Fruit added (thanks to Game Over). The fruit gives 5 hp.
+- Mine added (thanks again Game Over). It inflicts 40 dmg, can be enabled and disabled with axe ultimate, 
+and it inflicts damages to gates and bridges.
+- The items platforms don't give wood or stone now.
+- To take an item, you have to click on the collect/interract key now.
+- When you die in browars, you can watch your bot teammate playing now.
+- Tent added (thanks to Bifur the Dwarf). It brings out enemies.
+- Rock added (thanks to Bifur the Dwarf). It can be mined with hammer and mines.
+- Fruit tree added (thanks to Game Over). It can't be cut but gives fruits.
+- New maps : Tower Defense (Poland2020's idea), Bifur's Cave, and tutorial.
+- AIs are now more powerful.
+- I modified the buttons that allow to change the controls.
+- And many little changes that I forget...

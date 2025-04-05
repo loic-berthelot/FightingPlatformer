@@ -1,0 +1,37 @@
+DESCRIPTION
+This is a small arena map in 1vs1.
+First to 3 points wins.
+DESCRIPTION
+
+VICTORY
+my_kills 3
+
+DEFEAT
+my_deaths 3
+
+ROUND
+ace bear
+ace wolf
+
+MAP
+background_color sky1.jpg
+light_color 0 0 0
+light_intensity 0
+border_size 800 400
+respawn_time waiting
+round_end 60
+
+CHARACTERS
+human 100 200 player bear random
+human 700 200 ai wolf random
+
+EFFECTS
+pedestal 383 190
+crate2 50 280
+crate2 750 280
+
+BACKGROUND
+LOOP 8 100 0 wall1 0 300
+ramp1 250 200
+wall1 350 200
+ramp1 450 200 0 1

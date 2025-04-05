@@ -1,0 +1,52 @@
+DESCRIPTION
+Cross the camps of the 3 enemy armies. 
+Don't die and reach the door to escape !
+DESCRIPTION
+
+VICTORY
+my_escape true
+
+DEFEAT
+my_deaths 1
+
+MAP
+border_size 1500 1100
+adapt_background keep_proportions
+background_color mountains_moon.jpg
+respawn_time none
+
+CHARACTERS
+human 150 200 player bear axe weapon_bow haste_potion rope grenade
+human 600 200 ai wolf axe
+human 650 200 ai wolf sword
+human 650 600 ai raven hammer
+human 650 600 ai raven bow
+human 600 900 ai snake
+
+BACKGROUND
+LOOP 10 0 100 wall1 0 0
+LOOP 10 0 100 wall1 1400 0
+LOOP 3 100 0 wall1 100 250
+LOOP 7 100 0 wall1 400 300
+LOOP 12 100 0 wall1 200 700
+LOOP 2 0 100 wall1 200 500
+LOOP 15 100 0 wall1 0 1000
+escape_door1 1300 850
+guillotine 700 850
+guillotine 1200 850
+gate_solid1 200 350
+
+EFFECTS
+platform1 300 500 0 0 0.1 600 700
+spikes0 1100 698
+spikes0 1300 698
+tree1 400 150
+fruit_tree1 600 100
+tent1 800 100 0 0 wolf 3 600
+tent1 800 500 0 0 raven 3 600
+tent1 800 800 0 0 snake 3 600
+campfire0 310 680
+
+ai_beacon 800 140
+ai_beacon 800 640
+ai_beacon 800 840

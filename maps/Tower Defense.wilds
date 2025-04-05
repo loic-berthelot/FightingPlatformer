@@ -1,0 +1,113 @@
+TEXT
+text1 Welcome on this map !
+text2 Kill 10 enemies to win
+text3 If 5 enemies pass the door, you lose...
+
+DESCRIPTION
+Poland2020 gave me the idea of a tower defense on this game. 
+I tried to make it but there is no bow for now, so there is
+not really ranged fight...
+
+This is a map with a sort of small castle.
+Kill 10 enemies but be careful : they must not pass the door !
+DESCRIPTION
+
+VICTORY
+my_kills 10
+
+DEFEAT
+teams_escape wolf 5
+
+MAP
+background_color mountains_moon.jpg
+border_size 3500 1400
+respawn_time 420
+respawn_time wolf none
+escape_teams wolf
+death_vision death
+
+CHARACTERS
+human 100 1000 player bear bow
+human 2500 850 ai wolf
+
+BACKGROUND
+LOOP 4 0 100 scale1 1400 570
+LOOP 5 0 100 scale1 200 570
+LOOP 6 100 0 wall1 0 1100
+LOOP 6 100 0 wall4_2 0 1100
+LOOP 6 100 0 wall4_1 0 1200
+LOOP 6 100 0 wall4_1 0 1300
+LOOP 18 100 0 wall1 700 1100
+LOOP 2 0 100 scale1 600 1050
+LOOP 22 100 0 brick1 500 1300
+LOOP 11 100 0 wall4_2 1500 1000
+ramp1 1400 1000
+wall1 500 1200
+wall1 2700 1200
+stairs1 2600 1200
+stairs1 2700 1100
+stairs1 2800 1000
+ramp1 2500 1100 0 3
+ramp1 2600 1000 0 3
+LOOP 4 100 0 wall4_2 2900 1000
+LOOP 7 100 0 wall4_1 2800 1100
+LOOP 7 100 0 wall4_1 2800 1200
+LOOP 8 100 0 wall4_1 2700 1300
+LOOP 3 0 100 wall1 1300 600
+loophole1 1564 600
+wall4_1 1500 700
+gate_solid1 1540 800 0 0 1
+tower_roof1 1230 100
+wall1 1200 400
+LOOP 2 0 100 beam1 1590 400
+rampart1 1510 500 0 1
+LOOP 10 100 0 wall1 300 600
+gate_destroyed1 1150 400 0 1
+escape_door1 30 1000
+wall2 3220 700
+guillotine 800 950
+signpost1 100 1050 0 0 text1
+signpost1 200 1050 0 0 text2
+signpost1 300 1050 0 0 text3
+LOOP 3 100 0 wall1 2800 700
+LOOP 4 0 100 scale1 3100 650
+LOOP 2 100 0 wall4_2 3300 800
+LOOP 2 100 0 wall4_1 3300 900
+LOOP 2 100 0 wall4_1 3300 1000
+
+EFFECTS
+fruit_tree1 3340 600
+tree2 2030 800 0 1
+tree1 2200 860 0 1
+tree1 2880 850
+tree2 3000 800
+tree1 1820 850
+campfire0 400 580
+LOOP 4 50 0 pedestal 600 590
+tent1 2400 800 0 0 wolf 3 900
+spikes0 1500 1299
+spikes0 1800 1299
+
+ai_beacon 50 1050 0 0 10
+ai_beacon 250 1050 0 0 6.5
+ai_beacon 650 1050 0 0 5
+
+ai_beacon 650 1250 0 0 4.5
+ai_beacon 1050 1250 0 0 4
+ai_beacon 1450 1250 0 0 3.5
+ai_beacon 1850 1250 0 0 3
+ai_beacon 2250 1250 0 0 2.5
+ai_beacon 2500 1250 0 0 2
+ai_beacon 2700 950 0 0 1 1.5
+
+ai_beacon 1050 1050 0 0 4.5
+ai_beacon 1400 1000 0 0 4
+ai_beacon 1570 950 0 0 3.5
+ai_beacon 1700 950 0 0 3
+ai_beacon 2100 950 0 0 1 1.5
+
+ai_beacon 200 550 0 0 6.5
+ai_beacon 650 550 0 0 6
+ai_beacon 1050 550 0 0 5.5
+ai_beacon 1450 550 0 0 5
+ai_beacon 1450 800 0 0 3.75 4.25

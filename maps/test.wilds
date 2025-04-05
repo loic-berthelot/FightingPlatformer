@@ -1,0 +1,14 @@
+DESCRIPTION
+This is a small tutorial to learn the basics of the game.
+DESCRIPTION
+
+MAP
+border_size 1000 500
+
+CHARACTERS
+human 50 100 player bear axe haste_potion haste_potion
+human 350 100 none wolf axe
+
+BACKGROUND
+LOOP 10 100 0 wall1 0 400
+LOOP 2 0 100 scale1 100 100

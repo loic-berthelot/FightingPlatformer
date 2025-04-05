@@ -1,0 +1,8 @@
+Version 0.3 :
+- The legs of the characters can move now.
+- New ability : bash. When a character uses shield and is fast enough (using dash or a haste potion), it inflicts 10 dmg
+ and bring down opponents.
+- New ability : kick. The kick reverses arrows and knives, inflicts 10 dmg and bring down.
+- New ability : roll. The roll allows to go faster, to inflict 10 dmg and to bring down.
+- It's now easier to bring down the opponents, so the falling time is reduced (2 seconds => 1.15 second) to make the game more dynamic.
+- The jump power is a bit increased, to allow characters to avoid opponents rolling. Avoiding a roll needs a good timing.

@@ -1,0 +1,53 @@
+DESCRIPTION
+Most of the background drawings were made by Bifur the Dwarf.
+DESCRIPTION
+
+VICTORY
+ace 3
+
+DEFEAT
+ace 3
+
+ROUND
+ace bear
+ace wolf
+
+MAP
+background_color sun_firtrees.jpg
+light_color 0 0 0
+light_intensity 0
+border_size 1500 700
+respawn_time waiting
+round_end 60
+
+CHARACTERS
+human 100 200 player bear hammer
+human 1400 200 ai wolf hammer
+
+BACKGROUND
+LOOP 15 100 0 wall4_1 0 600
+LOOP 3 100 0 wall4_2 0 300
+LOOP 4 100 0 wall4_1 0 400
+LOOP 3 100 0 wall4_2 1200 300
+LOOP 4 100 0 wall4_1 1100 400
+
+wall4_4 300 300 0 1
+wall4_4 400 400 0 1
+wall4_4 1100 300
+wall4_4 1000 400
+
+LOOP 3 0 100 wall4_1 600 200
+LOOP 4 0 100 scale1 700 150
+LOOP 3 0 100 wall4_1 800 200
+
+loophole1 600 100 0 1
+loophole1 864 100
+
+LOOP 2 0 100 scale1 500 400
+LOOP 2 0 100 scale1 900 400
+
+EFFECTS
+rock3 20 520
+rock3 1373 520
+pedestal 20 290
+pedestal 1447 290

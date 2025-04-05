@@ -1,0 +1,32 @@
+Version 0.2 :
+- New weapon : the bow. It can shot arrows and it's ultimate is a fire arrow, like in wilds.io.
+- There are now moving platforms that interact with characters and some objects like arrows.
+- A problem of aim is fixed. The projectiles were thrown by the top left angle of the character hitbox, instead 
+of the center.
+- Charged hit : holding the hit key (left click by default), you can keep your weapon charged and hit when you 
+release the key.
+- New item : grenade. Works like the mine, but can be thrown, explodes faster, inflicts less damages and has a 
+smaller radius of effect.
+- New item : stamina potion. It gives 30 stamina points and divides the remaining cooldown of the ultimate by two.
+- New item : haste potion. It multiplies the speed by 3 during 2 seconds.
+- New item : clone potion. A clone helps you to fight during 15 seconds. The items that it collects go to your 
+inventory.
+- New item : rope. It allows to grab other people.
+- New weapon : the sword. A hit inflict 15 dmg, and during the ultimate, you are invulnerable and the sword turns 
+fastly and inflicts 20 dmg. You are invulnearable during the ultimate.
+- There are now spikes and guillotines. Spikes kill you if you are too fast and the guillotine kills you if you 
+touch the blade when it falls.
+- The knives (and the arrows) now update their angle when the direction of their movement changes.
+- There are now training dummies that you can shot and hit, just to train.
+- I improved the system of background color. There are now different ways to resize a picture.
+- There are now crates, that you can broke to get a fruit.
+- When a character takes damages or heals, the damages or heal value is displayed.
+- There is now a flag, that you can capture. You have to own flags to win.
+- There are now 2 new tribes : the Raven and the Snake.
+- In some maps, when your character die, there is now a fading effect that covers the screen gradually.
+- New map : Training. You can try the different weapons and items on training dummies.
+- New map : One Flag Arena. Capture the flag in the middle. Be careful, you can die but while your are dead, your 
+opponent will raise his flag.
+- New map : 6 Flags. You have to capture 3 of the 6 flags before the 3 other teams.
+- New map : Cross the Camps. You have to escape the map without dying.
+- The AI are improved. Now they can follow a path, and the Tower Defense mode is harder.
